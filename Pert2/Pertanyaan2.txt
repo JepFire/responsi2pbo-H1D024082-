@@ -1,0 +1,20 @@
+Pertanyaan Refleksi
+Setelah menyelesaikan kode, jawab pertanyaan berikut:
+
+1.Apa yang dimaksud dengan constructor overloading dalam pemrograman berorientasi objek?
+2.Bagaimana cara Java membedakan constructor yang memiliki nama sama namun parameter berbeda?
+3.Apa perbedaan antara mengakses variabel secara langsung (misalnya: objek.variabel = nilai) dengan menggunakan method setter?
+4.Jelaskan konsep encapsulation dan bagaimana method dapat membantu melindungi data dalam sebuah class!
+5.Mengapa constructor tidak memiliki return type, bahkan tidak menggunakan kata kunci void?
+
+Jawaban
+
+1.kemampuan sebuah class untuk memiliki beberapa constructor dengan nama yang sama (sama dengan nama kelas), tetapi dengan daftar parameter yang berbeda (jumlah, tipe, atau urutan tipe data).
+
+2.Caranya adalah dngan mengidentifikasi jumlah parameter, tipe data parameter, dan urutan tipe data yang ada dalam daftar parameter.
+
+3.Jika mengakses variable secara langsung kita tidak mempunyai control penuh sehingga data bisa diakses sembarangan, sedangkan jika menggunakan setter lebih bisa terkontrol dan data tidak bisa diakses sembarangan.
+
+4.Prinsip PBO yang mengikat data (state) dan method (behavior) yang beroperasi pada data tersebut menjadi satu unit (class).
+
+5.Karena tugasnya adalah menginisialisasi dan mengembalikan objek kelas itu sendiri saat dipanggil dengan new.
