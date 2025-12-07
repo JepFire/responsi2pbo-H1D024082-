@@ -1,8 +1,5 @@
 package Pert5;
 
-import java.util.Arrays;
-import java.util.Comparator;
-
 class defaultMesin {
     private String namaMesin;
     private int tenagaHP;
@@ -35,3 +32,4 @@ class defaultMesin {
     public void suaraMesin() {
     }
 }
+
