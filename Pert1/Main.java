@@ -14,7 +14,8 @@ class Main {
         System.out.println("Pengguna.FAKTOR_AKTIVITAS = 1.5;");
 
         System.out.println("\nMaka compiler akan menolak dengan error:");
-        System.out.println("'**cannot assign a value to final variable FAKTOR_AKTIVITAS**'");
+        System.out.println("'cannot assign a value to final variable FAKTOR_AKTIVITAS'");
         System.out.println("Hal ini membuktikan bahwa faktor aktivitas adalah konstanta.");
     }
+
 }
