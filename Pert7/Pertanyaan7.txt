@@ -1,0 +1,20 @@
+Pertanyaan Refleksi
+Setelah menyelesaikan kode, jawab pertanyaan berikut:
+
+1. Apa perbedaan antara interface dengan class biasa?
+2. Mengapa interface tidak memiliki implementasi method di dalamnya?
+3. Apa tujuan penggunaan keyword "implements" pada sebuah class?
+4. Apakah sebuah class dapat mengimplementasikan lebih dari satu interface? Jelaskan dan berikan contoh sederhana.
+5. Jika sebuah class mengimplementasikan interface, apa yang terjadi jika class tersebut tidak mengimplementasikan semua method dari interface tersebut?
+
+Jawaban
+
+1.nterface adalah kontrak perilaku murni yang tidak memiliki state, sementara class biasa menyediakan implementasi dan state lengkap.
+
+2.Karena interface hanya mendefinisikan apa yang harus dilakukan dan menyerahkan detail bagaimana melakukannya kepada class pengimplementasi.
+
+3.Untuk mendeklarasikan bahwa class tersebut menyediakan implementasi bagi semua method abstrak yang dideklarasikan di dalam interface.
+
+4.Iya, sebuah class dapat implements lebih dari satu interface (seperti class X implements Y, Z), mengatasi keterbatasan Single Inheritance Java.
+
+5.Class tersebut akan gagal dikompilasi.
