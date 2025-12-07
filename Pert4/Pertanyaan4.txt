@@ -1,0 +1,25 @@
+[PERTANYAAN PENGAYAAN]
+
+1. Mengapa constructor di class Member wajib memanggil constructor Customer menggunakan super(...)?
+
+2. Apa tujuan memanggil super.tampilkanInfo() saat melakukan overriding method di subclass?
+
+3. Berikan contoh kondisi di mana pemanggilan super.method() sangat penting dalam pewarisan.
+
+4. Bagaimana keyword super membantu membedakan atribut yang memiliki nama sama antara parent dan child?
+
+5. Mengapa pendekatan inheritance lebih efisien dibanding menyalin ulang seluruh atribut dan method ke dalam class Member?
+
+Jawaban
+
+1.Memastikan inisialisasi data dasar (state) yang diwarisi dari class induk.
+
+2.Untuk menghindari duplikasi kode.
+
+3.Jika Member memiliki method hitungTotalBelanja(), dan total belanja adalah Total Belanja (dari parent) + Biaya Tambahan hanya perlu super.getTotalBelanja() untuk mendapatkan nilai dasar dari parent.
+
+4.Mendeklarasikan variabel instance yang memiliki nama yang sama dengan variabel di superclass (Customer)—kondisi ini disebut variabel shadowing—maka:
+this.variabel akan merujuk pada variabel child (Member).
+super.variabel akan merujuk pada variabel parent (Customer).
+
+5.Karena mencegah duplikasi kode (code reusability) sehingga memudahkan pemeliharaan dan updates kode induk (superclass).
